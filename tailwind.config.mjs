@@ -5,6 +5,11 @@ export default {
 		extend: {
 			screens: {
 				xs: '430px'
+			},
+			colors:{
+				'Green': '#8FA206',
+				'Blue': '#61AEC9',
+				'Pink': '#CC2D4A',
 			}
 		}
 	},
