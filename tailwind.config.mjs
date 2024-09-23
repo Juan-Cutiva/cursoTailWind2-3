@@ -23,6 +23,9 @@ export default {
 			15: '15',
 			16: '16'
 		},
+		fontFamily:{
+			Montserrat: ['Montserrat Variable', 'sans-serif']
+		},
 		extend: {
 			screens: {
 				xs: '430px'
