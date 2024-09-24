@@ -6,18 +6,18 @@ export default function Cart() {
 		<>
 			{data.map((item) => {
 				const text =
-					item.text === 'text-gray-900'
-						? 'text-gray-900'
-						: '' || item.text === 'text-red-500'
-							? 'text-red-500'
+					item.text === 'text-white'
+						? 'text-white'
+						: '' || item.text === 'text-gray-900'
+							? 'text-gray-900'
 							: '';
-				const img = item.src === '/hotel.webp' ? '/hotel.webp' : '';
+				const img = item.src === item.src ? item.src : '';
 				return (
-					<div className={`mx-auto mb-20 h-[28rem] w-[85vw] rounded-3xl ${text}`}>
+					<div className={`mx-auto mb-10 h-[30rem] w-[85vw] rounded-3xl ${text} shadow-lg`}>
 						<img
 							src={img}
 							alt={`${item.name} image`}
-							className="absolute -z-10 h-[28rem] w-[85vw] rounded-3xl object-cover"
+							className="absolute -z-10 h-[30rem] w-[85vw] rounded-3xl object-cover object-center"
 						/>
 						<div className="z-10 pl-10 pt-14 text-3xl font-semibold">
 							<p>{item.name}</p>

@@ -3,14 +3,28 @@
         "id": "Rio De Janeiro",
         "name": "Rio De Janeiro",
         "src": "/hotel.webp",
-        "text": "text-gray-900",
-        "description": "2 rooms, bathroom and kitchen"
+        "text": "text-white",
+        "description": "2 rooms, bathroom and kitchen."
     },
     {
         "id": "Miami",
-        "name": "Rio De Janeiro",
-        "src": "/hotel.webp",
-        "text": "text-red-500",
-        "description": "2 rooms, bathroom and kitchen"
+        "name": "Miami",
+        "src": "/beach.webp",
+        "text": "text-gray-900",
+        "description": "3 rooms, 2 bathrooms,  kitchen and amazing sea view."
+    },
+    {
+        "id": "Mexico City",
+        "name": "Mexico City",
+        "src": "/hotelTwo.webp",
+        "text": "text-white",
+        "description": "2 rooms, 2 bathrooms,  kitchen and private pool."
+    },
+    {
+        "id": "Bogota",
+        "name": "Bogota",
+        "src": "/roomOne.webp",
+        "text": "text-gray-900",
+        "description": "4 rooms, 3 bathrooms,  kitchen and private pool."
     }
 ]
