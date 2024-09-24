@@ -11,22 +11,22 @@ import Moon from '../components/Moon.astro';
 	</div>
 	<div class="flex h-[85%] flex-col items-center justify-between">
 		<label
-			class="flex h-16 w-[90vw] cursor-pointer items-center justify-center rounded-full bg-white drop-shadow-lg"
+			class="flex h-16 w-auto cursor-pointer items-center justify-center rounded-full bg-white drop-shadow-lg"
 		>
-			<img src="/icons/search.svg" alt="Search icon" class="size-7" id="imgSearch" />
+			<img src="/icons/search.svg" alt="Search icon" class="size-7 ml-4" id="imgSearch" />
 			<input
 				type="text"
 				name="search"
 				id="search"
 				placeholder="San Francisco"
-				class="mt-px w-44 border-none text-xl font-medium placeholder-black"
+				class="mt-px w-[60vw] border-none text-xl font-medium placeholder-black transition-all duration-300 focus:w-[80vw] rounded-full outline-none mr-2"
 				autocomplete="off"
 			/>
 		</label>
 		<div>
 			<button
 				type="button"
-				class="z-10 mb-16 h-12 w-48 rounded-full bg-white text-lg font-semibold text-Pink drop-shadow-lg hover:bg-neutral-100"
+				class="z-10 mb-16 h-12 w-48 rounded-full bg-white text-lg font-semibold text-Pink drop-shadow-lg transition-all duration-500 ease-out hover:bg-Pink hover:text-white hover:-translate-y-1 hover:scale-110"
 				id="buttonSearch">Explore More</button
 			>
 		</div>

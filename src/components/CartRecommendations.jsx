@@ -9,7 +9,7 @@ export default function Cart() {
 				const color = item.background === 'bg-Green' ? 'bg-Green' : 'bg-white';
 				const text = item.text === 'text-white' ? 'text-white' : 'text-Blue';
 				return (
-					<div className="ml-8 h-72 w-60 flex-none rounded-lg shadow-lg" id={item.id}>
+					<div className="ml-8 h-72 w-60 flex-none rounded-lg shadow-lg transform transition-all hover:-translate-y-3 hover:shadow-xl" id={item.id}>
 						<div className="h-3/5">
 							<img src={item.src} alt={item.name} className="size-full overflow-hidden rounded-t-lg" />
 						</div>
