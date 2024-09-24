@@ -10,7 +10,7 @@
         "id": "Miami",
         "name": "Rio De Janeiro",
         "src": "/hotel.webp",
-        "text": "text-gray-900",
+        "text": "text-red-500",
         "description": "2 rooms, bathroom and kitchen"
     }
 ]
