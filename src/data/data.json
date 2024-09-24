@@ -1,0 +1,66 @@
+[
+    {
+        "id": "bogota",
+        "name": "Bogota",
+        "src": "/bogota.webp",
+        "background": "bg-Green",
+        "text": "text-white",
+        "description": "City with a thousand stories"
+    },
+    {
+        "id": "tokio",
+        "name": "Tokio",
+        "src": "/tokio.webp",
+        "background": "bg-white",
+        "text": "text-Blue",
+        "description": "The city of technology"
+    },
+    {
+        "id": "moscow",
+        "name": "Moscow",
+        "src": "/moscow.webp",
+        "background": "bg-Green",
+        "text": "text-white",
+        "description": "It's architecture enchants"
+    },
+    {
+        "id": "mexicoCity",
+        "name": "Mexico City",
+        "src": "/mexicoCity.webp",
+        "background": "bg-white",
+        "text": "text-Blue",
+        "description": "The capital of spicy cuisine"
+    },
+    {
+        "id": "newYork",
+        "name": "New York",
+        "src": "/newYork.webp",
+        "background": "bg-Green",
+        "text": "text-white",
+        "description": "Concrete jungle"
+    },
+    {
+        "id": "paris",
+        "name": "Paris",
+        "src": "/paris.webp",
+        "background": "bg-white",
+        "text": "text-Blue",
+        "description": "The city of love and charm"
+    },
+    {
+        "id": "rioDeJaneiro",
+        "name": "Rio De Janeiro",
+        "src": "/rioDeJaneiro.webp",
+        "background": "bg-Green",
+        "text": "text-white",
+        "description": "A place full of life and color"
+    },
+    {
+        "id": "roma",
+        "name": "Roma",
+        "src": "/roma.webp",
+        "background": "bg-white",
+        "text": "text-Blue",
+        "description": "A beautiful place"
+    }
+]

@@ -1,0 +1,33 @@
+---
+import Cart from '../components/Cart.astro';
+---
+
+<section id="Recommendations">
+	<h2 class="m-8 ml-8 text-3xl font-semibold text-Pink">Our Recommendations</h2>
+	<div
+		class="flex h-80 w-auto items-center overflow-x-auto overscroll-x-contain md:text-red-500"
+		id="containCarts"
+	>
+		<Cart />
+	</div>
+</section>
+
+<style>
+	#containCarts::-webkit-scrollbar {
+		width: 10px;
+		height: 6px;
+	}
+
+	#containCarts::-webkit-scrollbar-track {
+		background: #f1f1f1;
+	}
+
+	#containCarts::-webkit-scrollbar-thumb {
+		background: #cc2d4a;
+		border-radius: 0.5rem;
+	}
+
+	#containCarts::-webkit-scrollbar-thumb:hover {
+		background: #9e1a33;
+	}
+</style>
