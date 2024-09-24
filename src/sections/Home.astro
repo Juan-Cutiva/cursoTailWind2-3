@@ -1,0 +1,50 @@
+---
+import Moon from '../components/Moon.astro';
+---
+
+<section
+	id="home"
+	class="flex h-[31rem] flex-col bg-[url(public/Hero.png)] bg-cover bg-center bg-no-repeat"
+>
+	<div class="relative bottom-[0.4rem] left-3 scale-50 self-end">
+		<Moon />
+	</div>
+	<div class="flex h-[85%] flex-col items-center justify-between">
+		<label
+			class="flex h-16 w-[90vw] cursor-pointer items-center justify-center rounded-full bg-white drop-shadow-lg"
+		>
+			<img src="src/icons/solid/search.svg" alt="Search icon" class="size-7" id="imgSearch" />
+			<input
+				type="text"
+				name="search"
+				id="search"
+				placeholder="San Francisco"
+				class="mt-px w-44 border-none text-xl font-medium placeholder-black"
+				autocomplete="off"
+			/>
+		</label>
+		<div>
+			<button
+				type="button"
+				class="z-10 mb-16 h-12 w-48 rounded-full bg-white text-lg font-semibold text-Pink drop-shadow-lg hover:bg-neutral-100"
+				id="buttonSearch">Explore More</button
+			>
+		</div>
+	</div>
+</section>
+
+<script>
+	const button = document.getElementById('imgSearch');
+	button.addEventListener('click', function () {
+		console.log('Buscando');
+	});
+	button.addEventListener('enter', function () {
+		console.log('Buscando');
+	});
+</script>
+
+<style>
+	input[type='text']:focus {
+		box-shadow: none;
+	}
+</style>
