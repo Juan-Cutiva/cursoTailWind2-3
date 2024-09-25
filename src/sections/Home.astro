@@ -2,7 +2,7 @@
 import Moon from '../components/Moon.astro';
 import Header from '../components/Header.astro';
 ---
-<p class="absolute top-0" id="homeA">A</p>
+<p class="absolute top-0 text-transparent" id="homeA">A</p>
 <Header />
 <section
 	id="home"
@@ -25,7 +25,8 @@ import Header from '../components/Header.astro';
 				autocomplete="off"
 			/>
 		</label>
-		<div>
+		<div class="md:absolute md:left-[20vw] md:top-60">
+			<p class="font-bold text-4xl w-96 hidden md:flex md:mb-6">Find More Locations like this</p>
 			<button
 				type="button"
 				class="z-10 mb-16 h-12 w-48 rounded-full bg-white text-lg font-semibold text-Pink drop-shadow-lg transition-all duration-500 ease-out hover:-translate-y-1 hover:scale-110 hover:bg-Pink hover:text-white"

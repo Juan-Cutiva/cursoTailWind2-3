@@ -24,7 +24,7 @@ const header = [
 <header
 	class="fixed top-0 z-20 hidden h-14 w-screen items-center justify-around bg-white shadow-md md:flex"
 >
-	<a href="#homeA" class="text-xl font-bold text-Pink">Platzi Travel</a>
+	<a href="#homeA" class="text-xl font-bold text-Pink relative left-[-1vw] lg:left-[-5vw]">Platzi Travel</a>
 	<ul class="flex">
 		{
 			header.map((item) => (
@@ -35,7 +35,8 @@ const header = [
 		}
 	</ul>
 	<div class="mr-[4.5rem] flex items-center justify-center lg:mr-8 xl:mr-[-1.5rem]">
-		<svg
+		<a href="#home">
+			<svg
 			width="32"
 			height="32"
 			viewBox="0 0 20 20"
@@ -51,7 +52,9 @@ const header = [
 				fill="#f2f2f2"
 				class="shadow-inner hover:fill-Pink"></path>
 		</svg>
-		<svg
+		</a>
+		<a href="">
+			<svg
 			width="32"
 			height="32"
 			viewBox="0 0 20 20"
@@ -67,6 +70,7 @@ const header = [
 				fill="#f2f2f2"
 				class="hover:fill-Pink"></path>
 		</svg>
+		</a>
 		<div class="absolute right-[-2rem] scale-50">
 			<Moon />
 		</div>
