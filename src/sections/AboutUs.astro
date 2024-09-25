@@ -1,0 +1,21 @@
+---
+const text = [
+	'Investors',
+	'Jobs',
+	'Privacy Policy',
+	'Terms and Conditions',
+	'Platzi Travel, inc',
+	'Follow Us '
+];
+---
+
+<footer id="About Us" class="bg-[#FCFBFB] shadow-inner">
+	<div class="ml-8 text-[#CCCCCC] mb-12 flex flex-col">
+		<h2 class="py-5 text-3xl font-semibold">About Us</h2>
+		{text.map((item) => <a href="#" class="mb-2 text-xl font-medium w-fit">{item}</a>)}
+		<div class="flex gap-2 mt-1">
+            <a href="#"><img src="/icons/twitter.svg" alt="Twitter Logo" class="size-10" /></a>
+			<a href="#"><img src="/icons/instagram.svg" alt="Instagram Logo" class="size-10" /></a>
+		</div>
+	</div>
+</footer>
