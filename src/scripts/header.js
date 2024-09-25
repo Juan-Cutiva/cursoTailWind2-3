@@ -1,1 +1,1 @@
-const color = document.getElementById('user')
+const color = document.getElementById('user');

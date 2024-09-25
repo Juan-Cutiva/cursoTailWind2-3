@@ -10,11 +10,17 @@ const text = [
 ---
 
 <footer id="AboutUs" class="bg-[#FCFBFB] shadow-inner">
-	<div class="ml-8 text-[#CCCCCC] mb-12 flex flex-col">
+	<div class="mb-12 ml-8 flex flex-col text-[#CCCCCC]">
 		<h2 class="py-5 text-3xl font-semibold">About Us</h2>
-		{text.map((item) => <a href="#" class="mb-2 text-xl font-medium w-fit">{item}</a>)}
-		<div class="flex gap-2 mt-1">
-            <a href="#"><img src="/icons/twitter.svg" alt="Twitter Logo" class="size-10" /></a>
+		{
+			text.map((item) => (
+				<a href="#" class="mb-2 w-fit text-xl font-medium">
+					{item}
+				</a>
+			))
+		}
+		<div class="mt-1 flex gap-2">
+			<a href="#"><img src="/icons/twitter.svg" alt="Twitter Logo" class="size-10" /></a>
 			<a href="#"><img src="/icons/instagram.svg" alt="Instagram Logo" class="size-10" /></a>
 		</div>
 	</div>

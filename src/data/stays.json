@@ -1,6 +1,6 @@
 [
     {
-        "id": "Rio De Janeiro",
+        "id": "RioDeJaneiro",
         "name": "Rio De Janeiro",
         "src": "/hotel.webp",
         "text": "text-white",
@@ -14,7 +14,7 @@
         "description": "3 rooms, 2 bathrooms,  kitchen and amazing sea view."
     },
     {
-        "id": "Mexico City",
+        "id": "MexicoCity",
         "name": "Mexico City",
         "src": "/hotelTwo.webp",
         "text": "text-white",

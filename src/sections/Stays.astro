@@ -1,8 +1,25 @@
 ---
 import CartStays from '../components/CartStays';
 ---
+
 <p class="relative bottom-12 text-transparent" id="Stays">a</p>
-<section>
-	<h2 class="m-8 ml-8 text-3xl font-semibold text-Pink">Trending Stays</h2>
-	<CartStays />
+<section class="mb-10">
+	<h2 class="my-8 ml-[8vw] text-3xl font-semibold text-Pink md:ml-[3vw]">Trending Stays</h2>
+	<div id="cartContainStays" class="justify-center">
+		<CartStays />
+	</div>
 </section>
+<style>
+	@media (min-width: 768px) {
+		#cartContainStays {
+			display: grid;
+			grid-template-columns: repeat(3, 1fr);
+			grid-template-rows: repeat(7, 8.35rem);
+			grid-column-gap: 12px;
+			grid-row-gap: 12px;
+			width: 95vw;
+			margin-left: auto;
+			margin-right: auto;
+		}
+	}
+</style>

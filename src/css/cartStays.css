@@ -1,0 +1,67 @@
+@media (max-width: 768px) {
+	#text {
+		position: relative;
+		top: -31rem;
+	}
+}
+@media (min-width: 768px) {
+	#Bogota #text,
+	#Miami #text,
+	#MexicoCity #text,
+	#RioDeJaneiro #text {
+		position: absolute;
+	}
+	#Bogota #text {
+		top: 73rem;
+	}
+	#Miami #text,
+	#MexicoCity #text {
+		top: 100rem;
+	}
+	#RioDeJaneiro #text {
+		top: 118rem;
+	}
+	#Bogota #text #p {
+		width: 100%;
+	}
+	#Miami #text #p {
+		width: 40%;
+	}
+	#MexicoCity #text #p,
+	#RioDeJaneiro #text #p {
+		width: 80%;
+	}
+
+	#Bogota,
+	#Miami,
+	#MexicoCity,
+	#RioDeJaneiro {
+		height: 100%;
+		width: 100%;
+	}
+
+	#Bogota {
+		grid-area: 1 / 1 / 4 / 4;
+	}
+	#Miami {
+		grid-area: 4 / 1 / 8 / 2;
+	}
+	#MexicoCity {
+		grid-area: 4 / 2 / 6 / 4;
+	}
+	#RioDeJaneiro {
+		grid-area: 6 / 2 / 8 / 4;
+	}
+	#Bogota img,
+	#Miami img,
+	#MexicoCity img,
+	#RioDeJaneiro img {
+		height: 100%;
+		width: 100%;
+	}
+}
+@media (min-width: 950px) {
+	#Miami #text #p {
+		width: 50%;
+	}
+}
