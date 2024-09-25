@@ -1,32 +1,34 @@
 ---
 import Moon from '../components/Moon.astro';
+import Header from '../components/Header.astro';
 ---
-
+<p class="absolute top-0" id="homeA">A</p>
+<Header />
 <section
 	id="home"
-	class="flex h-[31rem] flex-col bg-[url(/Hero.png)] bg-cover bg-center bg-no-repeat"
+	class="flex h-[31rem] flex-col bg-[url(/Hero.png)] bg-cover bg-center bg-no-repeat md:mt-14"
 >
-	<div class="relative bottom-[0.4rem] left-3 scale-50 self-end">
+	<div class="relative bottom-[0.4rem] left-3 scale-50 self-end md:hidden">
 		<Moon />
 	</div>
-	<div class="flex h-[85%] flex-col items-center justify-between">
+	<div class="flex h-[85%] flex-col items-center justify-between md:mt-14">
 		<label
 			class="flex h-16 w-auto cursor-pointer items-center justify-center rounded-full bg-white drop-shadow-lg"
 		>
-			<img src="/icons/search.svg" alt="Search icon" class="size-7 ml-4" id="imgSearch" />
+			<img src="/icons/search.svg" alt="Search icon" class="ml-4 size-7" id="imgSearch" />
 			<input
 				type="text"
 				name="search"
 				id="search"
 				placeholder="San Francisco"
-				class="mt-px w-[60vw] border-none text-xl font-medium placeholder-black transition-all duration-300 focus:w-[80vw] rounded-full outline-none mr-2"
+				class="mr-2 mt-px w-[60vw] rounded-full border-none text-xl font-medium placeholder-black outline-none transition-all duration-300 focus:w-[80vw]"
 				autocomplete="off"
 			/>
 		</label>
 		<div>
 			<button
 				type="button"
-				class="z-10 mb-16 h-12 w-48 rounded-full bg-white text-lg font-semibold text-Pink drop-shadow-lg transition-all duration-500 ease-out hover:bg-Pink hover:text-white hover:-translate-y-1 hover:scale-110"
+				class="z-10 mb-16 h-12 w-48 rounded-full bg-white text-lg font-semibold text-Pink drop-shadow-lg transition-all duration-500 ease-out hover:-translate-y-1 hover:scale-110 hover:bg-Pink hover:text-white"
 				id="buttonSearch">Explore More</button
 			>
 		</div>
