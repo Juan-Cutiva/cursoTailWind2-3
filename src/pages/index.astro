@@ -5,14 +5,18 @@ import FAQs from '../sections/FAQs.astro';
 import Home from '../sections/Home.astro';
 import Recommendations from '../sections/Recommendations.astro';
 import Stays from '../sections/Stays.astro';
+import Header from '../components/Header.astro';
+import TabBar from '../components/TabBar.astro';
 ---
 
 <Layout title="Platzi Travel">
+	<Header />
 	<main>
 		<Home />
 		<Recommendations />
 		<Stays />
 		<FAQs />
-		<AboutUs />
 	</main>
+	<AboutUs />
+	<TabBar/>
 </Layout>

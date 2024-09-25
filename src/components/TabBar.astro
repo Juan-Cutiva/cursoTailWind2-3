@@ -1,0 +1,25 @@
+---
+import Heart from '../../public/icons/heart.astro';
+import Home from '../../public/icons/home.astro';
+import Search from '../../public/icons/search.astro';
+import User from '../../public/icons/user.astro';
+const size = '32';
+---
+
+<section id="tabBar" class="fixed bottom-0 z-40 h-14 w-screen bg-white md:hidden">
+	<div class="flex justify-center items-center w-screen h-full space-x-16">
+		<Home size={size} />
+		<Search size={size} />
+		<Heart size={size} />
+		<User size={size} />
+	</div>
+</section>
+
+<style>
+	#tabBar {
+		--tw-shadow: inset 0 2px 4px 0 rgb(0 0 0 / 0.1);
+		--tw-shadow-colored: inset 0 2px 4px 0 var(--tw-shadow-color);
+		box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000),
+			var(--tw-shadow);
+	}
+</style>

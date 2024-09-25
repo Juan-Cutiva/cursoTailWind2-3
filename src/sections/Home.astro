@@ -1,10 +1,8 @@
 ---
 import Moon from '../components/Moon.astro';
-import Header from '../components/Header.astro';
 ---
 
 <p class="absolute top-0 text-transparent" id="homeA">A</p>
-<Header />
 <section
 	id="home"
 	class="flex h-[31rem] flex-col bg-[url(/Hero.png)] bg-cover bg-center bg-no-repeat md:mt-14"
@@ -14,6 +12,7 @@ import Header from '../components/Header.astro';
 	</div>
 	<div class="flex h-[85%] flex-col items-center justify-between md:mt-14">
 		<label
+			id="labelSearch"
 			class="flex h-16 w-auto cursor-pointer items-center justify-center rounded-full bg-white drop-shadow-lg"
 		>
 			<img src="/icons/search.svg" alt="Search icon" class="ml-4 size-7" id="imgSearch" />
