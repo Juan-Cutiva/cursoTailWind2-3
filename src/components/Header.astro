@@ -22,16 +22,20 @@ const header = [
 ---
 
 <header
-	class="fixed top-0 z-20 hidden h-14 w-screen items-center justify-around bg-white dark:bg-gray-800 shadow-md md:flex"
+	class="fixed top-0 z-20 hidden h-14 w-screen items-center justify-around bg-white shadow-md md:flex dark:bg-gray-800"
 >
-	<a href="#homeA" class="relative left-[-1vw] text-xl font-bold text-Pink dark:text-neutral-100 hover:dark:text-gray-500 lg:left-[-5vw]"
+	<a
+		href="#homeA"
+		class="relative left-[-1vw] text-xl font-bold text-Pink lg:left-[-5vw] dark:text-neutral-100 hover:dark:text-gray-500"
 		>Platzi Travel</a
 	>
 	<ul class="flex">
 		{
 			header.map((item) => (
 				<a href={`#${item.href}`}>
-					<li class="pr-8 text-xl font-bold text-Pink dark:text-neutral-100 hover:dark:text-gray-500">{item.text}</li>
+					<li class="pr-8 text-xl font-bold text-Pink dark:text-neutral-100 hover:dark:text-gray-500">
+						{item.text}
+					</li>
 				</a>
 			))
 		}

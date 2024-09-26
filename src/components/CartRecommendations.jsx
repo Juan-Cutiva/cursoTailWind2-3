@@ -1,7 +1,7 @@
 import { Fragment } from 'react';
 
 import data from '../data/city.json';
-import '../css/cartRecommendations.css'
+import '../css/cartRecommendations.css';
 
 export default function Cart() {
 	return (
