@@ -39,5 +39,5 @@
 	color: rgb(245 245 245 / var(--tw-text-opacity));
 }
 :root[class='light'] #bg-white p {
-	color: #61aec9
+	color: #61aec9;
 }
