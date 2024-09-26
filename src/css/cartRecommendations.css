@@ -1,0 +1,16 @@
+@media (prefers-color-scheme: dark) {
+	#bg-Green {
+		background: #374151;
+	}
+	#bg-white {
+		background: #1f2937;
+	}
+	#bg-Green p {
+		--tw-text-opacity: 1;
+		color: rgb(245 245 245 / var(--tw-text-opacity));
+	}
+	#bg-white p {
+		--tw-text-opacity: 1;
+		color: rgb(245 245 245 / var(--tw-text-opacity));
+	}
+}

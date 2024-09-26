@@ -1,4 +1,5 @@
 ---
+import SearchInput from '../../public/icons/searchInput.astro';
 import Moon from '../components/Moon.astro';
 ---
 
@@ -15,7 +16,9 @@ import Moon from '../components/Moon.astro';
 			id="labelSearch"
 			class="flex h-16 w-auto cursor-pointer items-center justify-center rounded-full bg-white drop-shadow-lg"
 		>
-			<img src="/icons/search.svg" alt="Search icon" class="ml-4 size-7" id="imgSearch" />
+			<div class="ml-4" id="imgSearch">
+				<SearchInput />
+			</div>
 			<input
 				type="text"
 				name="search"
@@ -29,7 +32,7 @@ import Moon from '../components/Moon.astro';
 			<p class="hidden w-96 text-4xl font-bold md:mb-6 md:flex">Find More Locations like this</p>
 			<button
 				type="button"
-				class="z-10 mb-16 h-12 w-48 rounded-full bg-white text-lg font-semibold text-Pink drop-shadow-lg transition-all duration-500 ease-out hover:-translate-y-1 hover:scale-110 hover:bg-Pink hover:text-white"
+				class="z-10 mb-16 h-12 w-48 rounded-full bg-white text-lg font-semibold text-Pink drop-shadow-lg transition-all duration-500 ease-out hover:-translate-y-1 hover:scale-110 hover:bg-Pink hover:text-white dark:text-gray-700 dark:hover:bg-gray-700"
 				id="buttonSearch">Explore More</button
 			>
 		</div>

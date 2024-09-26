@@ -1,6 +1,7 @@
 import { Fragment } from 'react';
 
 import data from '../data/city.json';
+import '../css/cartRecommendations.css'
 
 export default function Cart() {
 	return (
@@ -21,7 +22,7 @@ export default function Cart() {
 								className="size-full overflow-hidden rounded-t-lg"
 							/>
 						</div>
-						<div className={`h-2/5 rounded-b-lg ${color} ${text}`}>
+						<div className={`h-2/5 rounded-b-lg ${color} ${text}`} id={item.background}>
 							<p className="pl-4 pt-2 text-xl font-semibold">{item.name}</p>
 							<p className="pl-4 pt-2 text-sm font-medium">{item.description}</p>
 						</div>
